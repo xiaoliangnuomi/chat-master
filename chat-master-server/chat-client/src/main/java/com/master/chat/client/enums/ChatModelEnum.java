@@ -29,9 +29,13 @@ public enum ChatModelEnum {
 
     MOONSHOT("Moonshot", "月之暗面"),
 
+    DEEPSEEK("DeepSeek", "深度求索"),
+
+    DOUBAO("Doubao", "豆包"),
+
     INTERNLM("Internlm", "书生·浦语"),
 
-    LOCALLM("Locallm", "本地模型"),
+    LOCALLM("LocalLM", "本地模型"),
 
     ;
 

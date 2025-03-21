@@ -1,8 +1,35 @@
+## v1.1.9
+
+`2025-02-08`
+
+> [chat-master](https://gitee.com/panday94/chat-master)
+
+## Enhancement
+
+- 完善部署文档，同步sql文件
+- 更新讯飞星火模型版本，修复模型回复问题
+- 客户端中将选择模型下拉菜单设置最大高度，避免模型过多 弹出层变高
+- 我的模型列表只返回启用模型，增加模型排序功能支持返回优先级高的模型
+- 增加一键部署脚本
+
+## v1.1.8
+
+`2024-09-19`
+
+> [chat-master](https://gitee.com/panday94/chat-master)
+
+## Enhancement
+
+- 支持websocket响应，方便对接移动端
+- 支持Langchain-chatchat 对话文档/知识库问答
+- 支持Ollama加载本地模型调用
+- 支持扣子（Coze）在线接口调用
+
 ## v1.1.7
 
 `2024-05-30`
 
-> [chat-master](https://gitee.com/yoli9/chat-master)
+> [chat-master](https://gitee.com/panday94/chat-master)
 
 ## Enhancement
 
@@ -32,7 +59,7 @@
 
 `2024-03-17`
 
-> [chat-master](https://gitee.com/yoli9/chat-master)
+> [chat-master](https://gitee.com/panday94/chat-master)
 
 ## Enhancement
 
@@ -49,7 +76,7 @@
 
 `2024-03-14`
 
-> [chat-master](https://gitee.com/yoli9/chat-master)
+> [chat-master](https://gitee.com/panday94/chat-master)
 
 ## Enhancement
 
@@ -65,7 +92,7 @@
 
 `2024-03-04`
 
-> [chat-master](https://gitee.com/yoli9/chat-master)
+> [chat-master](https://gitee.com/panday94/chat-master)
 
 ## Enhancement
 
@@ -81,7 +108,7 @@
 
 `2024-02-29`
 
-> [chat-master](https://gitee.com/yoli9/chat-master)
+> [chat-master](https://gitee.com/panday94/chat-master)
 
 ## Enhancement
 
@@ -98,7 +125,7 @@
 
 `2024-01-20`
 
-> [chat-master](https://gitee.com/yoli9/chat-master)
+> [chat-master](https://gitee.com/panday94/chat-master)
 
 ## Enhancement
 
@@ -116,7 +143,7 @@
 
 `2023-01-06`
 
-> [chat-master](https://gitee.com/yoli9/chat-master)
+> [chat-master](https://gitee.com/panday94/chat-master)
 
 ## Enhancement
 
@@ -132,7 +159,7 @@
 
 `2023-12-26`
 
-> [chat-master](https://gitee.com/yoli9/chat-master)
+> [chat-master](https://gitee.com/panday94/chat-master)
 
 ## Enhancement
 
@@ -142,4 +169,4 @@
 
 `2023-12-1`
 
-> [chat-master](https://gitee.com/yoli9/chat-master) ChatMASTER，基于AI大模型api实现的自建后端ChatGPT服务，支出json返回及流式响应，完美呈现打印机效果。
+> [chat-master](https://gitee.com/panday94/chat-master) ChatMASTER，基于AI大模型api实现的自建后端ChatGPT服务，支出json返回及流式响应，完美呈现打印机效果。

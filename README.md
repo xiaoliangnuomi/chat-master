@@ -4,30 +4,35 @@
     <a href="#联系我们"><img src="https://img.shields.io/badge/MasterAII-blue" alt="公众号"></a>
 </p>
 
-![](https://img.shields.io/badge/SpringBoot-2.3.7-brightgreen.svg)
+![](https://img.shields.io/badge/SpringBoot-2.3.7-brightgreen.svg) [![star](https://gitcode.com/panday94/chat-master/star/badge.svg)](https://gitcode.com/panday94/chat-master)
 
-> 声明：此项目只发布于码云和GitHub，基于 Apache 协议，免费且作为开源学习使用，禁止转卖、谨防受骗。如需商用必须保留版权信息，请自觉遵守。确保合法合规使用，在运营过程中产生的一切任何后果自负，与作者无关。
+
+> 声明：此项目发布于码云、GitCode和GitHub，基于 Apache 协议，免费且作为开源学习使用，禁止转卖、谨防受骗。如需商用必须保留版权信息，请自觉遵守。确保合法合规使用，在运营过程中产生的一切任何后果自负，与作者无关。
 
 # 项目简介
-ChatMASTER，基于AI大模型api实现的自建后端Chat服务，支出同步响应及流式响应，完美呈现打印机效果。支持一键切换ChatGPT(3.5、4.0)模型、月之暗面（Kimi）、文心一言(支持Stable-Diffusion-XL作图)、通义千问、讯飞星火、智谱清言(ChatGLM)、书生浦语等主流模型，后续模型持续对接中。
+ChatMASTER，基于AI大模型api实现的自建后端对话服务，支出同步响应及流式响应，完美呈现打印机效果。支持一键切换DeepSeek、月之暗面（Kimi）、豆包、ChatGPT(3.5、4.0)、Claude3、文心一言、通义千问、讯飞星火、智谱清言(ChatGLM)、书生浦语等主流模型，并且支持扣子(Coze)和使用Ollama和Langchain进行加载本地模型及知识库问答。
 项目包含java服务端、网页端、移动端及管理后台配置。
 
-> 项目已更新为多模块项目，如有bug可提Issues或加入微信群反馈。如果觉得项目好用，请点个Star吧！如需GPT免魔法访问，可[联系作者](#联系我们)。
+> 如果觉得项目好用，请点个Star吧！如需ChatGPT或者Claude支持，可[联系作者](#联系我们)获取。
+
+> 移动端项目暂未开源，若需要及商业版，可[联系作者](#联系我们)获取。
+
+> 支持[一键部署](./deploy/deploy.md)
+
+> 支持[Ollama](https://ollama.com/)、[Langchain-chatchat](https://github.com/chatchat-space/Langchain-Chatchat)、[扣子(Coze)](https://www.coze.cn/home)本地或在线接口调用，Dify、LinkAI、FastGPT对接中。
 
 GitHub直通车[点我传送](https://github.com/panday94/chatgpt-master)
 
 欢迎小伙伴或有合作意向一起加入交流群[添加微信](#扫码进群)或提Issues。使用参考下面具体介绍：
 
-* 支持支持一键切换ChatGPT(3.5、4.0)模型、月之暗面（Kimi）、文心一言(支持Stable-Diffusion-XL作图)、通义千问、讯飞星火、智谱清言(ChatGLM)、书生浦语等主流模型
+* 支持一键切换DeepSeek、月之暗面（Kimi）、豆包、ChatGPT(3.5、4.0)、Claude3、文心一言、通义千问、讯飞星火、智谱清言(ChatGLM)、书生浦语等主流模型。
+* 不仅支持国内外官方模型接口，并且支持使用[Ollama](https://ollama.com/)和[Langchain-chatchat](https://github.com/chatchat-space/Langchain-Chatchat)进行加载本地模型及知识库问答，也可以使用[扣子(Coze)](https://www.coze.cn/home)的在线api进行使用，Dify、LinkAI、FastGPT对接中。
 * 免费提供多种类型助手按指定prompt输出，也可在管理后台创建自定义助手模版。如需更多万花筒信息可关注公众号[扫码获取](#联系我们)获取
 * 管理端端采用Vue2、Element UI，ChatMASTER网页端使用Vue3、TypeScript、NaiveUI进行开发
 * 服务端采用Spring Boot、Spring Security + JWT、Mybatis-Plus、Lombok、 Mysql & Redis，代码通俗易懂，上手即用
 * 完善的权限控制，权限认证使用Jwt，支持多终端认证系统
-* 管理端项目，请移步[chat-master-admin](https://gitee.com/panday94/chat-master-admin)
-* 网页端项目，请移步[chat-master-web](https://gitee.com/panday94/chat-master-web)
-* 移动端项目，请移步[chat-master-uniapp](https://gitee.com/panday94/chat-master-uniapp)
-* 如需了解更多可访问[这里](https://www.yuque.com/the6/ct0azl/ehxcgoy0xg41l9c3?singleDoc# 《ChatMASTER部署教程》)
-* 扫码加入微信群获取一键部署教程[扫码加入](#扫码进群)
+* 扫码加入微信群免费获取部署教程[扫码加入](#扫码进群)
+
 * 阿里云折扣场：[点我进入](https://www.aliyun.com/minisite/goods?userCode=iqguofg4)，腾讯云秒杀场：[点我进入](https://curl.qcloud.com/11y0ob0f)&nbsp;&nbsp;
 * 阿里云优惠券：[点我领取](https://www.aliyun.com/daily-act/ecs/activity_selection?userCode=iqguofg4)，腾讯云优惠券：[点我领取](https://curl.qcloud.com/EUbjrCcu)&nbsp;&nbsp;
 
@@ -35,7 +40,7 @@ GitHub直通车[点我传送](https://github.com/panday94/chatgpt-master)
 
 网页端演示地址：https://gpt.panday94.xyz 移动端可关注公众号[扫码体验](#联系我们)
 
-管理端演示地址：https://gpt.panday94.xyz/admin  密码：master chatmaster
+管理端演示地址：https://gpt.panday94.xyz/admin/#  密码：master chatmaster
 
 ![cover](./doc/file/app.png)
 ![cover](./doc/file/login.jpg)
@@ -72,21 +77,27 @@ GitHub直通车[点我传送](https://github.com/panday94/chatgpt-master)
 1. 文档对话、国内模型绘画
 2. 知识库
 3. MJ/SD
-4. 分销
+4. 语音对话
+5. 视频生成
 
 ## 模型功能对比
 
 > 版本记录请查看这里[版本记录](./CHANGELOG.md)
 
-| 模型       | 是否支持System  | 天气查询      | 绘画                    |
-|-----------|-------------|-----------|-----------------------|
-| ChatGPT   | 支持          | 不支持       | 支持                    |
-| 文心一言    | 不支持(传递会报错) | 可以回复(不准)  | 使用Stable-Diffusion-XL |
-| 通义千问    | 支持          | 支持(效果没讯飞好) | 未接入                   |
-| 讯飞星火    | 支持 | 支持(准)     | 不支持                   |
-| 智谱清言    | 支持  | 不支持       | 支持（API待接入目前有点贵）       |
-| 月之暗面    | 支持  | 不支持       | 支持文档问答             |
-| 书生浦语 | 支持     | 不支持 | 支持文档问答 |
+提示：
+1. ChatGPT 可通过`Cloudflare`访问openai接口或者使用代理，ChatGPT及国内模型密钥由后台系统配置，如需代理可[联系作者](#联系我们)获取。
+
+| 名称                                          | 免费？ | 是否国内     | 地址 |
+| --------------------------------------------- | ------ | ---------- | ---- |
+| ChatGpt                          | 否     | 否       | https://chat.openai.com/ |
+| 文心一言 | 否     | 是 | https://yiyan.baidu.com/ |
+| 通义千问 | 否     | 是 | https://tongyi.aliyun.com/ |
+| 讯飞星火 | 否     | 是 | https://xinghuo.xfyun.cn/ |
+| 智谱清言 | 否     | 是 | https://chatglm.cn/ |
+| 月之暗面 | 否     | 是 | https://kimi.moonshot.cn/ |
+| 书生浦语 | 否     | 是 | https://internlm-chat.intern-ai.org.cn/ |
+| 豆包 | 否     | 是 | https://www.doubao.com/ |
+| DeepSeek | 否     | 是 | https://chat.deepseek.com/ |
 
 ## 内置功能
 1. 工作台：集成多个应用和功能的系统页面，该页面主要为用户提供快速访问、信息聚合、个性化等功能。
@@ -105,39 +116,18 @@ GitHub直通车[点我传送](https://github.com/panday94/chatgpt-master)
         - oss/sms信息：配置文件上传及短信密钥
 9. 系统管理：对系统中基础业务进行管理维护。
 
-## 环境搭建/运行&提示
-### chat-master-server
-> ChatGPT需要在后台配置管理中进行站点配置或加入微信群咨询。
+## 模块介绍
 
-``` 
-1、idea导入chat-master项目，请更换spring.profiles.active为dev
-2、执行doc/sql/chat_gpt全量sql文件，在gpt_model配置可运行模型信息，在gpt_openkey配置模型密钥信息
-3、版本更新时候需执行doc/sql/update.sql
-4、更改application-dev中redis连接和mysql连接配置
-5、启动ChatApplication中main方法
-```
-- com.master.chat.api.config.InitBean 初始化模型
-- com.master.chat.llm.base.service.LLMService 模型接口实现
+| 模块              | 备注  | 
+|----------------- |---------------- |
+| chat-master-admin   | 管理端代码 （Vue2）         |
+| chat-master-server    | 后端服务代码（Java） | 
+| chat-master-uniapp    | 移动端Uniapp代码，支持App、小程序、H5 （暂未开源，若需要及商业版，可[联系作者](#联系我们)获取）   |
+| chat-master-web    | Web端代码（Vue3）    |
 
-### chat-master-web
-> node 要求建议14.20或14.21，打包时候需要安装node 16 +，建议使用nvm 安装node版本，可进行切换多版本控制，[nvm](https://github.com/nvm-sh/nvm) 
-
-```
-# 前提已安装好node
-1、cd chat-master-web
-2、npm i 
-3、npm run dev
-```
-
-### chat-master-admin
-> node 要求建议14.20或14.21，建议使用nvm 安装node版本，可进行切换多版本控制，[nvm](https://github.com/nvm-sh/nvm) 
-
-```
-# 前提已安装好node
-1、cd chat-master-admin
-2、npm i 
-3、npm run dev
-```
+## 💡环境搭建/运行/部署
+1. [部署运行教程](./deploy/deploy.md)
+2. [常见问题](./doc/常见问题.md)
 
 ## 参与贡献
 
